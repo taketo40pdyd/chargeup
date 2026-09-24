@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "ChargeUp｜ガジェット購入のための貯金管理アプリ",
+  "short_name": "ChargeUp",
+  "description": "欲しいガジェットを目標に、貯金額・進捗・積立ペースを管理するアプリです。LED風のバッテリー表示で貯まり具合が一目でわかり、積立シミュレーター・貯金チャレンジ・PDFレポートにも対応しています。",
+  "lang": "ja",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#060A11",
+  "theme_color": "#0A0F12",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "screenshot-wide-home.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "ホーム：目標ごとの貯金額をLEDのバッテリーで表示" },
+    { "src": "screenshot-wide-stats.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "統計：貯金額の推移と達成予測" },
+    { "src": "screenshot-narrow-home.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "ホーム：ワンタップで貯金を記録" },
+    { "src": "screenshot-narrow-stats.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "統計：レベルと達成予測" }
+  ]
+}
